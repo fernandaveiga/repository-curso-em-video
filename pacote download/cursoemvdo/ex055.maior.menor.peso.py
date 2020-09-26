@@ -1,5 +1,5 @@
-# Faça um programa que leia o peso de 5 pessoas. No final, mostre qual foi o maior e o menor peso
-# lidos.
+# Faça um programa que leia o peso de 5 pessoas. No final, mostre qual 
+# foi o maior e o menor peso lidos.
 
 maior=0
 menor=0
@@ -16,8 +16,9 @@ for p in range(1,6):
 print('O maior valor é {}'.format(maior))
 print('O menor valor é {}'.format(menor))
 
+#resolução número2, já que peso de uma pesoa jamais será maior que 500kg
 #maior=0
-#menor=1000
+#menor=500
 #for n in range(1,6):
 #    p = float(input('Digite o peso da {}ª pessoa: '.format(n)))
 #    if p>maior:

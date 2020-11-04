@@ -39,7 +39,7 @@ class Stack:
         return self._size
     
     def __repr__(self):
-        #exibiro que tem dentro da pilha
+        #representação visual do que tem dentro da pilha
         r = ''
         pointer = self.top
         while(pointer):
